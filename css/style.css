@@ -1,0 +1,70 @@
+body {
+
+background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 100%;
+margin: 0;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+
+h1 {
+  color:  #c5ac5a;     
+  font-family: "Times New Roman";
+  font-size: 50px;
+}
+
+p {
+  color: #e2d6ad;
+  font-family: "Times New Roman";
+  font-style: italic;
+  font-size: 20px;
+}
+
+.quotes {
+  background-color: #85144b;
+  width: 33%;
+  margin-right: auto;
+  margin-left: auto;
+  border-style: solid;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 20px;
+  height: auto;
+  color: black;
+  font-family: "Droid Sans";
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px; 
+}
+
+.author {
+  font-size: 20px;
+  font-style: italic;
+  
+
+}
+
+@media screen and (max-width: 600px) {
+.container-fluid {
+    width: 100%;
+    }
+.quotes {
+    font-size: 18px;
+    width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
